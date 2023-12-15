@@ -63,10 +63,10 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-requirements = python3==3.7.6,hostpython3==3.7.6
+osx.python_version = 3.7.6
 
 # Kivy version to use
-osx.python_version = 3.7.6
+osx.kivy_version = 1.9.1
 
 #
 # Android specific
