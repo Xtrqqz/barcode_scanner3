@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6,hostpython3==3.7.6,kivy,camera4kivy,gestures4kivy,pillow,https://github.com/kivymd/KivyMD/archive/master.zip,setuptools,libiconv,libzbar,pyzbar,pyjnius,android
+requirements = python3,kivy,camera4kivy,gestures4kivy,pillow,https://github.com/kivymd/KivyMD/archive/master.zip,setuptools,libiconv,libzbar,pyzbar,pyjnius,android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
