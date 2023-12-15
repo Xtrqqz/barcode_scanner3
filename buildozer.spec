@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,camera4kivy,gestures4kivy,pillow,https://github.com/kivymd/KivyMD/archive/master.zip,setuptools,libiconv,libzbar,pyzbar,pyjnius,android
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy,camera4kivy,gestures4kivy,pillow,https://github.com/kivymd/KivyMD/archive/master.zip,setuptools,libiconv,libzbar,pyzbar,pyjnius,android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -63,10 +63,10 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+requirements = python3==3.7.6,hostpython3==3.7.6
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.python_version = 3.7.6
 
 #
 # Android specific
@@ -108,7 +108,7 @@ android.api = 32
 #android.sdk = 20
 
 # (str) Android NDK version to use
-android.ndk = 23b
+android.ndk = 25b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
